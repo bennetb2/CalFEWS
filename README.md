@@ -1,9 +1,7 @@
-# CalFEWS
+#### Prerequisites:
 
-# Prerequisites:
-
-## Necessary packages:
+Necessary packages:
 - numpy 1.16.3
 - pandas 0.24.2
 
-__Clone [Calvin Network Data](https://github.com/ucd-cws/calvin-network-data/) in same directory as script__
+Clone [Calvin Network Data](https://github.com/ucd-cws/calvin-network-data/) in same directory as script
