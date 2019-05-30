@@ -17,7 +17,6 @@ def correct_csv(input, output):
 
     Output_df.to_csv(output, index=False)
 
-
 paths = [["./calvin-network-data/data/sacramento-river/central-basin-east/sr_fol/elevation_area_capacity.csv", "./Folsom_Area_Capacitance.csv"],
          ["./calvin-network-data/data/tulare-lake/uplands/sr_pnf/elevation_area_capacity.csv", "./Pine_Flat_Area_Capacitance.csv"],
          ["./calvin-network-data/data/north-coast/lower-klamath/sr_cle/elevation_area_capacity.csv", "./Clair_Engle_Area_Capacitance.csv"],
@@ -44,13 +43,5 @@ paths = [["./calvin-network-data/data/sacramento-river/central-basin-east/sr_fol
 
          ]
 
-
 for path in paths:
     correct_csv(path[0], path[1])
-
-#
-# # FOLSOM
-# correct_csv("./calvin-network-data/data/sacramento-river/central-basin-east/sr_fol/elevation_area_capacity.csv", "./Folsom_Area_Capacitance.csv")
-#
-# # PINE FLAT
-# correct_csv("./calvin-network-data/data/tulare-lake/uplands/sr_pnf/elevation_area_capacity.csv", "./Pine_Flat_Area_Capacitance.csv")
